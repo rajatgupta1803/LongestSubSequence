@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  lis_api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "80"
+    volumes:
+      - /var/lib/docker/volumes/my-vol/_data
+      
