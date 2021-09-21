@@ -11,7 +11,7 @@ namespace LISApiTest
     public class LISTest
     {
         LIS objLIS = new LIS();  
-        //Provided Tests cases
+        //Provided 12 Tests cases
         [TestMethod]
         public void LISTest1()
         {
